@@ -1,3 +1,7 @@
+version 0.0.8
+- new mapping method, tested on RPi rev.2, successfully selected pin 22 and managed to blink a LED via GPIO25
+- RPi rev.2 P5 pins assigned "virtual" 101-108 hardware pin numbers
+
 version 0.0.7
 - new pin mapping for Revision 2 boards, see https://projects.drogon.net/raspberry-pi/wiringpi/pins/ and http://www.raspberrypi-spy.co.uk/2012/06/simple-guide-to-the-rpi-gpio-header-and-pins/
 

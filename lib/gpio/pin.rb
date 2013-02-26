@@ -3,7 +3,6 @@ module GPIO
 		attr_reader :pin, :mode, :device, :hardware_pin, :software_pin, :file
 		def initialize(params) #(pin, mode, device=:RaspberryPi)
 			@device = GPIO.const_get(params[:device]||:RaspberryPi)
-			@device.const_set :MAPPING, params[:mapping] if params[:mapping]
 
 			@pin = params[:pin].to_i
 
